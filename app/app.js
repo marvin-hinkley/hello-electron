@@ -20,3 +20,10 @@ console.log('The author of this app is:', appDir.read('package.json', 'json').au
 document.addEventListener('DOMContentLoaded', function () {
   ui.containers.content.innerHTML = 'I am the walrus.';
 });
+
+ui.buttons.hideContent.addEventListener('click', function () {
+  ui.hide(ui.containers.content);
+});
+ui.buttons.showContent.addEventListener('click', function () {
+  ui.show(ui.containers.content);
+});
