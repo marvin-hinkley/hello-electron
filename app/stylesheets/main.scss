@@ -7,19 +7,23 @@ html, body {
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
 }
 
 a {
+    display: block;
     text-decoration: none;
+    color: black;
 }
 
 .content-container {
     text-align: center;
 }
 
-.subtitle {
-    color: gray;
+.content-controls {
+  display: flex;
+  flex-direction: row;
 }
