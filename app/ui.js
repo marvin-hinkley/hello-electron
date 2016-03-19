@@ -12,7 +12,8 @@ var ui = {
     testButton: document.querySelector('.test-button')
   },
   inputs: {
-    testInput: document.querySelector('.test-input')
+    showContent: document.querySelector('#show-content')
+    hideContent: document.querySelector('#hide-content')
   }
 };
 
