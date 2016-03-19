@@ -1,6 +1,7 @@
 $background-color: #282C34;
 $text-main-color: #7DA5BF;
 $text-accent-color: #C69A56;
+$foreground-color: #21252B;
 
 html, body {
     width: 100%;
@@ -20,10 +21,7 @@ body {
 }
 
 a {
-    color: $text-main-color;
-    &:hover {
-      color: $text-accent-color;
-    }
+    text-decoration: none;
 }
 
 .content-container {
@@ -35,9 +33,8 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  a {
-    display: block;
-    padding: 0 0.5em;
+  .button {
+    margin: 0.5em;
   }
 }
 
@@ -46,4 +43,15 @@ a {
 }
 .shown {
   display: block;
+}
+
+.button {
+  display: block;
+  padding: 0.5em;
+  background-color: $foreground-color;
+  color: $text-main-color;
+  border-radius: 5px;
+  &:hover {
+    color: $text-accent-color
+  }
 }
