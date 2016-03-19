@@ -2,6 +2,7 @@ $background-color: #282C34;
 $text-main-color: #7DA5BF;
 $text-accent-color: #C69A56;
 $foreground-color: #21252B;
+$blue: #61AFEF;
 
 html, body {
     width: 100%;
@@ -43,6 +44,10 @@ a {
 }
 .shown {
   display: block;
+}
+
+.emphasis {
+  color: $blue;
 }
 
 .button {
