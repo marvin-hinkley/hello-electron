@@ -1,3 +1,7 @@
+$background-color: #282C34;
+$text-main-color: #7DA5BF;
+$text-accent-color: #C69A56;
+
 html, body {
     width: 100%;
     height: 100%;
@@ -11,12 +15,17 @@ body {
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    background-color: $background-color;
+    color: $text-main-color;
 }
 
 a {
     display: block;
-    text-decoration: none;
-    color: black;
+    //text-decoration: none;
+    color: $text-main-color;
+    &:hover {
+      color: $text-accent-color;
+    }
 }
 
 .content-container {
