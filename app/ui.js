@@ -13,7 +13,7 @@ var ui = {
     testButton: document.querySelector('.test-button')
   },
   inputs: {
-    showContent: document.querySelector('#show-content')
+    showContent: document.querySelector('#show-content'),
     hideContent: document.querySelector('#hide-content')
   }
 };
