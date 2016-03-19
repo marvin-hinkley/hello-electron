@@ -6,7 +6,8 @@ var ui = {
 
   },
   containers: {
-    content: document.querySelector('.content-container')
+    content: document.querySelector('.content-container'),
+    contentControls: document.querySelector('.content-controls')
   },
   buttons: {
     testButton: document.querySelector('.test-button')
