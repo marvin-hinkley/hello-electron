@@ -20,8 +20,6 @@ body {
 }
 
 a {
-    display: block;
-    //text-decoration: none;
     color: $text-main-color;
     &:hover {
       color: $text-accent-color;
@@ -30,9 +28,15 @@ a {
 
 .content-container {
     text-align: center;
+    padding: 1em;
 }
 
 .content-controls {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  a {
+    display: block;
+    padding: 0 0.5em;
+  }
 }
