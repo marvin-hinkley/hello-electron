@@ -10,11 +10,30 @@
 
 </head>
 <body>
-    <div class="content-container"></div>
-    <div class="content-controls">
-      <a href="#" id="show-content" class="button">show</a>
-      <a href="#" id="hide-content" class="button">hide</a>
+
+  <div id="flex-wrapper">
+    <div id="header">
+      <h2>Hello-Electron</h2>
     </div>
+    <div id="content-wrapper">
+      <div id="users" class="panel">
+        <ul>
+          <li>user 1</li>
+          <li>user 2</li>
+        </ul>
+      </div>
+      <div id="content">
+        <div id="media"></div>
+        <div id="media-inputs" class="panel">
+          <input type="text" />
+          <div id="media-controls">
+            <a href="#" id="show-content" class="button">show</a>
+            <a href="#" id="hide-content" class="button">hide</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <script src="app.js"></script>
 </body>

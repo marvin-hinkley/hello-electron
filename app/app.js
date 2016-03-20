@@ -18,12 +18,12 @@ var appDir = jetpack.cwd(app.getAppPath());
 console.log('The author of this app is:', appDir.read('package.json', 'json').author);
 
 document.addEventListener('DOMContentLoaded', function () {
-  ui.containers.content.innerHTML = 'I am the <span class="emphasis">walrus</span>.';
+  ui.containers.media.innerHTML = 'I am the <span class="emphasis">walrus</span>.';
 });
 
 ui.buttons.hideContent.addEventListener('click', function () {
-  ui.hide(ui.containers.content);
+  ui.hide(ui.containers.media);
 });
 ui.buttons.showContent.addEventListener('click', function () {
-  ui.show(ui.containers.content);
+  ui.show(ui.containers.media);
 });

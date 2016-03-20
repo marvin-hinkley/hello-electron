@@ -9,12 +9,15 @@ var ui = {
     element.classList.remove('shown')
   },
   containers: {
-    content: document.querySelector('.content-container'),
-    contentControls: document.querySelector('.content-controls')
+    users: document.querySelector('#users'),
+    content: document.querySelector('#content'),
+    media: document.querySelector('#media'),
+    mediaInputs: document.querySelector('#media-inputs'),
+    mediaControls: document.querySelector('#media-controls')
   },
   buttons: {
-    showContent: document.querySelector('#show-content'),
-    hideContent: document.querySelector('#hide-content')
+    showContent: document.querySelector('#show-media'),
+    hideContent: document.querySelector('#hide-media')
   }
 };
 
